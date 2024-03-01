@@ -1,0 +1,19 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.0f1 (35dcd44975df) revision 3529940'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8060 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2022.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51060
+Successfully changed project path to: E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
