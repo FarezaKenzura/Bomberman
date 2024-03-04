@@ -20,10 +20,10 @@ public class LevelGrid : MonoBehaviour
     [SerializeField] private int gridHeight = 10;
     [SerializeField] private float gridCellSize = 1f;
 
-    //[Header("Item")]
-    //[SerializeField] private Transform blastRadiusPrefab;
-    //[SerializeField] private Transform extraBombPrefab;
-    //[SerializeField] private Transform speedIncreasePrefabs;
+    [Header("Item")]
+    [SerializeField] private Transform blastRadiusPrefab;
+    [SerializeField] private Transform extraBombPrefab;
+    [SerializeField] private Transform speedIncreasePrefabs;
 
     private GridSystem<GridInfo> gridSystem;
 
@@ -105,13 +105,13 @@ public class LevelGrid : MonoBehaviour
         switch(randomChance)
         {
             case 0: 
-                //Instantiate(blastRadiusPrefab, itemPosition, Quaternion.identity);
+                Instantiate(blastRadiusPrefab, itemPosition, Quaternion.identity);
                 break;
             case 1: 
-                //Instantiate(extraBombPrefab, itemPosition, Quaternion.identity);
+                Instantiate(extraBombPrefab, itemPosition, Quaternion.identity);
                 break;
             case 2: 
-                //Instantiate(speedIncreasePrefabs, itemPosition, Quaternion.identity);
+                Instantiate(speedIncreasePrefabs, itemPosition, Quaternion.identity);
                 break;
         }
     }
