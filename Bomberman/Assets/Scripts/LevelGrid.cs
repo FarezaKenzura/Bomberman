@@ -98,23 +98,23 @@ public class LevelGrid : MonoBehaviour
         }
     }
 
-    /*public void SpawnRandomItem(Vector3 itemPosition)
+    public void SpawnRandomItem(Vector3 itemPosition)
     {
         int randomChance = Random.Range(0, 3);
 
         switch(randomChance)
         {
             case 0: 
-                Instantiate(blastRadiusPrefab, itemPosition, Quaternion.identity);
+                //Instantiate(blastRadiusPrefab, itemPosition, Quaternion.identity);
                 break;
             case 1: 
-                Instantiate(extraBombPrefab, itemPosition, Quaternion.identity);
+                //Instantiate(extraBombPrefab, itemPosition, Quaternion.identity);
                 break;
             case 2: 
-                Instantiate(speedIncreasePrefabs, itemPosition, Quaternion.identity);
+                //Instantiate(speedIncreasePrefabs, itemPosition, Quaternion.identity);
                 break;
         }
-    }*/
+    }
 
     public void RemoveAllGrid()
     {

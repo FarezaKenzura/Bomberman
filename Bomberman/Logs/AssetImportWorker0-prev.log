@@ -9,13 +9,13 @@ D:\Program Files\Unity\Hub\Editor\2022.2.0f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker2
+AssetImportWorker0
 -projectPath
 E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
 -logFile
-Logs/AssetImportWorker2.log
+Logs/AssetImportWorker0.log
 -srvPort
-51060
+53727
 Successfully changed project path to: E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
 E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16020] Host "[IP] 192.168.20.50 [Port] 0 [Flags] 2 [Guid] 2223677642 [EditorId] 2223677642 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9056] Host "[IP] 192.168.20.50 [Port] 0 [Flags] 2 [Guid] 3284097839 [EditorId] 3284097839 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16020] Host "[IP] 192.168.20.50 [Port] 0 [Flags] 2 [Guid] 2223677642 [EditorId] 2223677642 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9056] Host "[IP] 192.168.20.50 [Port] 0 [Flags] 2 [Guid] 3284097839 [EditorId] 3284097839 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1314.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7496.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.0f1 (35dcd44975df)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,9 +63,3 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     2010 MB
     Driver:   30.0.15.1179
-Initialize mono
-Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
-Begin MonoManager ReloadAssembly
