@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Brick : LevelObject 
+class Brick : LevelObject 
 {
     [SerializeField] private Transform destroyedBrick;
 

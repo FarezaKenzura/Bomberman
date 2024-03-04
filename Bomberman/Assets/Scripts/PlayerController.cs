@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 bombPosition = LevelGrid.Instance.GetWorldPosition(gridPosition);
         Transform bombTransform = Instantiate(bombPrefab, bombPosition, quaternion.identity);
-        //bombTransform.GetComponent<Bomb>().SetUp
+        bombTransform.GetComponent<Bomb>().SetUp(this, maxPower);
     }
 
     public void Dead()
