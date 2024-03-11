@@ -15,7 +15,7 @@ E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54149
+50235
 Successfully changed project path to: E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
 E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/data cccc/Angeous Games/Games/Bomberman/Bomberman
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17008] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1546036534 [EditorId] 1546036534 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14976] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1472197627 [EditorId] 1472197627 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17008] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 1546036534 [EditorId] 1546036534 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14976] Host "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1472197627 [EditorId] 1472197627 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-S4JO36S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5083.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1663.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.0f1 (35dcd44975df)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -67,49 +67,49 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.068201 seconds.
-- Loaded All Assemblies, in  4.608 seconds
+Registered in 0.142116 seconds.
+- Loaded All Assemblies, in  3.667 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 585 ms
+Android Extension - Scanning For ADB Devices 5802 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.329 seconds
+- Finished resetting the current domain, in  7.957 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4241ms)
-		BeginReloadAssembly (3888ms)
+	ReloadAssembly (2961ms)
+		BeginReloadAssembly (2436ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (3883ms)
+			LoadAssemblies (2439ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
-				TypeCache.Initialize (336ms)
-					TypeCache.ScanAssembly (334ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (690ms)
+				TypeCache.Initialize (684ms)
+					TypeCache.ScanAssembly (681ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1239ms)
+			SetupLoadedEditorAssemblies (7839ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (843ms)
-				SetLoadedEditorAssemblies (44ms)
+				InitializePlatformSupportModulesInManaged (6380ms)
+				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (1185ms)
+				ProcessInitializeOnLoadMethodAttributes (260ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -119,634 +119,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in 16.066 seconds
-Refreshing native plugins compatible for Editor in 125.01 ms, found 4 plugins.
+- Loaded All Assemblies, in  8.134 seconds
+Refreshing native plugins compatible for Editor in 48.09 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  7.040 seconds
+- Finished resetting the current domain, in  3.334 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4636ms)
-		BeginReloadAssembly (2831ms)
-			ExecutionOrderSort (1ms)
-			DisableScriptedObjects (255ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (4ms)
-			CreateAndSetChildDomain (200ms)
-		LoadAllAssembliesAndSetupDomain (11337ms)
-			LoadAssemblies (6624ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (6188ms)
-				TypeCache.Initialize (3328ms)
-					TypeCache.ScanAssembly (3308ms)
-				ResolveRequiredComponents (149ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (5204ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (262ms)
-				SetLoadedEditorAssemblies (64ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1232ms)
-				ProcessInitializeOnLoadAttributes (2872ms)
-				ProcessInitializeOnLoadMethodAttributes (672ms)
-				AfterProcessingInitializeOnLoad (100ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (89ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.88 seconds
-Refreshing native plugins compatible for Editor in 77.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6007 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (1.1 MB). Loaded Objects now: 6449.
-Memory consumption went from 0.91 GB to 0.91 GB.
-Total: 21.600400 ms (FindLiveObjects: 1.758900 ms CreateObjectMapping: 2.193800 ms MarkObjects: 15.994900 ms  DeleteObjects: 1.649800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 270150.289444 seconds.
-  path: Assets/Prefabs/ExplosionStart.prefab
-  artifactKey: Guid(900b12d505ca41d448087a941bb4a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionStart.prefab using Guid(900b12d505ca41d448087a941bb4a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15e806aef0e4711d4cb10591ccdf9fd') in 2.396966 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 279.662587 seconds.
-  path: Assets/Prefabs/ExplosionMiddle.prefab
-  artifactKey: Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionMiddle.prefab using Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa91d777d4b4bee83ff46f257fdaf4c') in 0.785637 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.139262 seconds.
-  path: Assets/Prefabs/ExplosionEnd.prefab
-  artifactKey: Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionEnd.prefab using Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc84b13c6ac8e1be4b1c7ae1cdbf8e8d') in 0.145883 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 9.667131 seconds.
-  path: Assets/Prefabs/ExplosionEnd.prefab
-  artifactKey: Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionEnd.prefab using Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cec9882dfc63b090b8a292cc6195ba') in 0.074386 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 4.334973 seconds.
-  path: Assets/Prefabs/ExplosionMiddle.prefab
-  artifactKey: Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionMiddle.prefab using Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16423e1e985d3bc7344da2a764307de9') in 0.116022 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 6.605080 seconds.
-  path: Assets/Prefabs/ExplosionEnd.prefab
-  artifactKey: Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionEnd.prefab using Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee22173d33e7bfc1ca0da2ca0aad41c6') in 0.105256 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 3.735867 seconds.
-  path: Assets/Prefabs/ExplosionMiddle.prefab
-  artifactKey: Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionMiddle.prefab using Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3a56476cbb82d1ce732cd9d6c89e6b') in 0.388928 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 6.434633 seconds.
-  path: Assets/Prefabs/ExplosionMiddle.prefab
-  artifactKey: Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionMiddle.prefab using Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5c1d1a1fa5d2a1aeb535561976af3e') in 0.212478 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 4.547485 seconds.
-  path: Assets/Prefabs/ExplosionEnd.prefab
-  artifactKey: Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionEnd.prefab using Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4bf4f1a0d7430759ebc0f76ef267d5') in 0.049477 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 429.251943 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bomb.prefab using Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea030b9411bc857fb1c2dc24d9a0b1c') in 0.862470 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 1.126255 seconds.
-  path: Assets/Prefabs/BrickDestroy.prefab
-  artifactKey: Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/BrickDestroy.prefab using Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efa21eedfeac877f1024f32c1b1c541') in 0.433210 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 109.469077 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bomb.prefab using Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550a4d04972d2fe5599f12709fe95348') in 0.250970 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 227.787700 seconds.
-  path: Assets/Prefabs/BrickDestroy.prefab
-  artifactKey: Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/BrickDestroy.prefab using Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de953e1a2ce4eede673e45b4ffa2f4f') in 0.210951 seconds 
-Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.769557 seconds.
-  path: Assets/Prefabs/BrickDestroy.prefab
-  artifactKey: Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/BrickDestroy.prefab using Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fb0d5bcc5569aa4373d3950fae7ac3') in 0.170496 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 4.250602 seconds.
-  path: Assets/Prefabs/BrickDestroy.prefab
-  artifactKey: Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/BrickDestroy.prefab using Guid(898dc39eed178af42b30078175a8288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578e8c4e8a270147de7c670cbe8c5b7d') in 0.567976 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 158.785469 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bomb.prefab using Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c167b76acb78e3514b31aa832574ffb7') in 0.375103 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 13.442448 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bomb.prefab using Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512466ce0b17c6045a6e6af01b0558e5') in 0.153662 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 16.699240 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bomb.prefab using Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee4740130280b65d26f3cee187ecaa3') in 0.298911 seconds 
-Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 213.214887 seconds.
-  path: Assets/Scripts/DestroyedBrick.cs
-  artifactKey: Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/DestroyedBrick.cs using Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4753122d2dbf6be24714d90ce801f065') in 0.100073 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  8.696 seconds
-Refreshing native plugins compatible for Editor in 136.75 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 104.496 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1769ms)
-		BeginReloadAssembly (1279ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (52ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (180ms)
-		LoadAllAssembliesAndSetupDomain (6865ms)
-			LoadAssemblies (1654ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (5610ms)
-				TypeCache.Initialize (2916ms)
-					TypeCache.ScanAssembly (2885ms)
-				ResolveRequiredComponents (164ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (18743ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (661ms)
-				SetLoadedEditorAssemblies (13ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (3637ms)
-				ProcessInitializeOnLoadAttributes (13105ms)
-				ProcessInitializeOnLoadMethodAttributes (1319ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1105.46 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5874 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6516.
-Memory consumption went from 0.89 GB to 0.88 GB.
-Total: 255.471900 ms (FindLiveObjects: 3.709700 ms CreateObjectMapping: 3.296600 ms MarkObjects: 246.568300 ms  DeleteObjects: 1.894700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 403.256752 seconds.
-  path: Assets/Scripts/DestroyedBrick.cs
-  artifactKey: Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/DestroyedBrick.cs using Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4b2703d75b342125bdaf3dca79d65e') in 0.062744 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  8.436 seconds
-Refreshing native plugins compatible for Editor in 56.17 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 74.276 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2263ms)
-		BeginReloadAssembly (1306ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (75ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (351ms)
-		LoadAllAssembliesAndSetupDomain (6115ms)
-			LoadAssemblies (1055ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (5361ms)
-				TypeCache.Initialize (2421ms)
-					TypeCache.ScanAssembly (2305ms)
-				ResolveRequiredComponents (61ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (5047ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (179ms)
-				SetLoadedEditorAssemblies (50ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1135ms)
-				ProcessInitializeOnLoadAttributes (3165ms)
-				ProcessInitializeOnLoadMethodAttributes (476ms)
-				AfterProcessingInitializeOnLoad (33ms)
-				EditorAssembliesLoaded (9ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (221ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 85.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5874 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6532.
-Memory consumption went from 0.89 GB to 0.88 GB.
-Total: 53.630000 ms (FindLiveObjects: 9.871000 ms CreateObjectMapping: 3.489100 ms MarkObjects: 38.601400 ms  DeleteObjects: 1.667000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 345.717831 seconds.
-  path: Assets/Scripts/DestroyedBrick.cs
-  artifactKey: Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/DestroyedBrick.cs using Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2bf8ae64711cfc1fdeaa498b01b92e') in 0.130392 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  4.394 seconds
-Refreshing native plugins compatible for Editor in 22.48 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 148.997 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1609ms)
-		BeginReloadAssembly (1219ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (93ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (40ms)
-			CreateAndSetChildDomain (354ms)
-		LoadAllAssembliesAndSetupDomain (2747ms)
-			LoadAssemblies (489ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2435ms)
-				TypeCache.Initialize (1273ms)
-					TypeCache.ScanAssembly (1159ms)
-				ResolveRequiredComponents (35ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (11173ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (166ms)
-				SetLoadedEditorAssemblies (48ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2650ms)
-				ProcessInitializeOnLoadAttributes (6911ms)
-				ProcessInitializeOnLoadMethodAttributes (1383ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (70ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 516.38 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5875 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6549.
-Memory consumption went from 0.89 GB to 0.88 GB.
-Total: 141.320700 ms (FindLiveObjects: 3.410900 ms CreateObjectMapping: 0.769700 ms MarkObjects: 136.058500 ms  DeleteObjects: 1.079300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1132.776823 seconds.
-  path: Assets/Scripts/DestroyedBrick.cs
-  artifactKey: Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/DestroyedBrick.cs using Guid(bc4660b629c0c3c49908c29cab58ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484ac9c8e06dbf54484e0180cddc2b86') in 1.906948 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  4.611 seconds
-Refreshing native plugins compatible for Editor in 25.76 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 96.909 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1585ms)
-		BeginReloadAssembly (948ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (63ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (345ms)
-		LoadAllAssembliesAndSetupDomain (2808ms)
-			LoadAssemblies (838ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2311ms)
-				TypeCache.Initialize (1333ms)
-					TypeCache.ScanAssembly (1313ms)
-				ResolveRequiredComponents (46ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2999ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (173ms)
-				SetLoadedEditorAssemblies (61ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (947ms)
-				ProcessInitializeOnLoadAttributes (1604ms)
-				ProcessInitializeOnLoadMethodAttributes (208ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (46ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1325.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5876 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6566.
-Memory consumption went from 0.89 GB to 0.89 GB.
-Total: 225.276500 ms (FindLiveObjects: 16.015700 ms CreateObjectMapping: 1.923100 ms MarkObjects: 168.209000 ms  DeleteObjects: 39.125800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.421 seconds
-Refreshing native plugins compatible for Editor in 25.96 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 76.848 seconds
-Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (680ms)
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (517ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (115ms)
-		LoadAllAssembliesAndSetupDomain (2410ms)
-			LoadAssemblies (563ms)
+			CreateAndSetChildDomain (84ms)
+		LoadAllAssembliesAndSetupDomain (7235ms)
+			LoadAssemblies (4164ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2138ms)
-				TypeCache.Initialize (959ms)
-					TypeCache.ScanAssembly (944ms)
-				ResolveRequiredComponents (58ms)
+			SetupTypeCache (3318ms)
+				TypeCache.Initialize (1766ms)
+					TypeCache.ScanAssembly (1750ms)
+				ResolveRequiredComponents (48ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2597ms)
+			SetupLoadedEditorAssemblies (2449ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (244ms)
+				InitializePlatformSupportModulesInManaged (112ms)
 				SetLoadedEditorAssemblies (32ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (573ms)
-				ProcessInitializeOnLoadAttributes (1441ms)
-				ProcessInitializeOnLoadMethodAttributes (297ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (55ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1566.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5877 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6583.
-Memory consumption went from 0.89 GB to 0.89 GB.
-Total: 94.313700 ms (FindLiveObjects: 0.690600 ms CreateObjectMapping: 0.802000 ms MarkObjects: 91.806600 ms  DeleteObjects: 1.012700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  9.484 seconds
-Refreshing native plugins compatible for Editor in 38.72 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 97.996 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4323ms)
-		BeginReloadAssembly (3050ms)
-			ExecutionOrderSort (1ms)
-			DisableScriptedObjects (235ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1650ms)
-		LoadAllAssembliesAndSetupDomain (5117ms)
-			LoadAssemblies (1043ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (4596ms)
-				TypeCache.Initialize (2534ms)
-					TypeCache.ScanAssembly (2364ms)
-				ResolveRequiredComponents (99ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (4366ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (497ms)
-				SetLoadedEditorAssemblies (282ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (794ms)
-				ProcessInitializeOnLoadAttributes (2034ms)
-				ProcessInitializeOnLoadMethodAttributes (742ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (507ms)
+				ProcessInitializeOnLoadAttributes (1489ms)
+				ProcessInitializeOnLoadMethodAttributes (301ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (82ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 983.55 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 48.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5877 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6599.
-Memory consumption went from 0.89 GB to 0.89 GB.
-Total: 80.157300 ms (FindLiveObjects: 0.789200 ms CreateObjectMapping: 0.854900 ms MarkObjects: 69.096700 ms  DeleteObjects: 9.414600 ms)
+Unloading 6012 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.1 MB). Loaded Objects now: 6454.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 25.616300 ms (FindLiveObjects: 0.759200 ms CreateObjectMapping: 2.449900 ms MarkObjects: 21.476600 ms  DeleteObjects: 0.928900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -761,265 +179,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5823.022485 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 204310.497256 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(2e7ad50256e10de40a120df6791ffb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bomb.prefab using Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def4b16a7410adfb7f5734081e428084') in 153.884895 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 76
-========================================================================
-Received Import Request.
-  Time since last request: 124.437603 seconds.
-  path: Assets/Prefabs/ExplosionStart.prefab
-  artifactKey: Guid(900b12d505ca41d448087a941bb4a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionStart.prefab using Guid(900b12d505ca41d448087a941bb4a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bde4bab8a5ae45494c836de15a37dd') in 1.122469 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 5.567633 seconds.
-  path: Assets/Prefabs/ExplosionStart.prefab
-  artifactKey: Guid(900b12d505ca41d448087a941bb4a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionStart.prefab using Guid(900b12d505ca41d448087a941bb4a07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4793f24b8f61cd02e9e81c5f368eb0') in 0.795982 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 3.990536 seconds.
-  path: Assets/Prefabs/ExplosionMiddle.prefab
-  artifactKey: Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionMiddle.prefab using Guid(635089d2810999a4da5c5cede28d65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e7546dc7de2ef1aeb59d4ed55d3a1a') in 0.377654 seconds 
-Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 5.342784 seconds.
-  path: Assets/Prefabs/ExplosionEnd.prefab
-  artifactKey: Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionEnd.prefab using Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec69b871f39c2f39586174c8ad9cbdc3') in 0.489760 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 153.946992 seconds.
-  path: Assets/Prefabs/Bomb.prefab
-  artifactKey: Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bomb.prefab using Guid(d542838a537ce46498525cc235473dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486f91d8ce3027b95b2a031574e29ace') in 0.602763 seconds 
-Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 78
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in 38.406 seconds
-Refreshing native plugins compatible for Editor in 28.88 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 142.424 seconds
-Domain Reload Profiling:
-	ReloadAssembly (29663ms)
-		BeginReloadAssembly (28884ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (1825ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20025ms)
-		LoadAllAssembliesAndSetupDomain (8720ms)
-			LoadAssemblies (5527ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (8224ms)
-				TypeCache.Initialize (4920ms)
-					TypeCache.ScanAssembly (4718ms)
-				ResolveRequiredComponents (167ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1913ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (308ms)
-				SetLoadedEditorAssemblies (51ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (467ms)
-				ProcessInitializeOnLoadAttributes (772ms)
-				ProcessInitializeOnLoadMethodAttributes (309ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 33.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5877 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (1.0 MB). Loaded Objects now: 6655.
-Memory consumption went from 0.89 GB to 0.89 GB.
-Total: 454.078100 ms (FindLiveObjects: 46.338000 ms CreateObjectMapping: 5.561600 ms MarkObjects: 400.906300 ms  DeleteObjects: 1.268000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in 11.754 seconds
-Refreshing native plugins compatible for Editor in 65.83 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 125.800 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5674ms)
-		BeginReloadAssembly (4136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (72ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (2026ms)
-		LoadAllAssembliesAndSetupDomain (6031ms)
-			LoadAssemblies (2187ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (5214ms)
-				TypeCache.Initialize (3595ms)
-					TypeCache.ScanAssembly (3578ms)
-				ResolveRequiredComponents (123ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (4342ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (767ms)
-				SetLoadedEditorAssemblies (63ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (638ms)
-				ProcessInitializeOnLoadAttributes (1934ms)
-				ProcessInitializeOnLoadMethodAttributes (930ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (39ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 58.32 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 2.64 ms.
-Unloading 5877 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6671.
-Memory consumption went from 0.89 GB to 0.89 GB.
-Total: 161.998500 ms (FindLiveObjects: 0.884800 ms CreateObjectMapping: 1.374000 ms MarkObjects: 111.285300 ms  DeleteObjects: 48.452300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\data cccc\Angeous Games\Games\Bomberman\Bomberman\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.118 seconds
-Refreshing native plugins compatible for Editor in 28.97 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 202.824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1373ms)
-		BeginReloadAssembly (1179ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		LoadAllAssembliesAndSetupDomain (1761ms)
-			LoadAssemblies (859ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1528ms)
-				TypeCache.Initialize (769ms)
-					TypeCache.ScanAssembly (760ms)
-				ResolveRequiredComponents (33ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (3685ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (465ms)
-				SetLoadedEditorAssemblies (20ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (843ms)
-				ProcessInitializeOnLoadAttributes (1638ms)
-				ProcessInitializeOnLoadMethodAttributes (687ms)
-				AfterProcessingInitializeOnLoad (30ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (102ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 817.88 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5877 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.0 MB). Loaded Objects now: 6687.
-Memory consumption went from 0.89 GB to 0.89 GB.
-Total: 118.659700 ms (FindLiveObjects: 1.069500 ms CreateObjectMapping: 0.961000 ms MarkObjects: 104.910300 ms  DeleteObjects: 11.717000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2235.604755 seconds.
-  path: Assets/Prefabs/ExplosionEnd.prefab
-  artifactKey: Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/ExplosionEnd.prefab using Guid(d70f93a4dc38b514fadba5389c643c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8b470c400fc6ecf7d716f63b50842b') in 14.907253 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of asset objects unloaded after import = 23
+Start importing Assets/Scripts/Enemy.cs using Guid(2e7ad50256e10de40a120df6791ffb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45679ad430d782b75953cb69e17e1ff') in 0.462826 seconds 
+Number of asset objects unloaded after import = 0

@@ -7,7 +7,6 @@ public class LevelGrid : MonoBehaviour
 {
     public static LevelGrid Instance { get; private set; }
 
-    [Header("Prefabs")]
     [SerializeField] private Transform groundPrefab;
     [SerializeField] private Transform groundShadowPrefab;
     [SerializeField] private Transform blockPrefab;
@@ -15,12 +14,10 @@ public class LevelGrid : MonoBehaviour
     [SerializeField] private Transform gridContainer;
     [SerializeField] private Transform brickContainer;
 
-    [Header("Grid Size")]
     [SerializeField] private int gridWidth = 10;
     [SerializeField] private int gridHeight = 10;
     [SerializeField] private float gridCellSize = 1f;
 
-    [Header("Item")]
     [SerializeField] private Transform blastRadiusPrefab;
     [SerializeField] private Transform extraBombPrefab;
     [SerializeField] private Transform speedIncreasePrefabs;
@@ -76,6 +73,7 @@ public class LevelGrid : MonoBehaviour
         }
     }
 
+    
     public void SpawnRandomBrick()
     {
         for(int x = 0; x <= gridWidth; x++)
@@ -95,9 +93,14 @@ public class LevelGrid : MonoBehaviour
                 if (chance == 0) continue;
                 Instantiate(prefab, position, Quaternion.identity, brickContainer);
             }
+            
         }
     }
 
+    /// <summary>
+    /// yyubuubbbbhbhjj
+    /// </summary>
+    /// <param name="itemPosition">jkkjmjj</param>
     public void SpawnRandomItem(Vector3 itemPosition)
     {
         int randomChance = Random.Range(0, 3);
@@ -115,7 +118,7 @@ public class LevelGrid : MonoBehaviour
                 break;
         }
     }
-
+    
     public void RemoveAllGrid()
     {
         while(gridContainer.childCount > 0)
